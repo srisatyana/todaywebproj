@@ -64,4 +64,16 @@
       </plugins>
     </pluginManagement>
   </build>
+ <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>my snapshot repository</name>
+      <url>http://localhost:8081/repository/today/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+      <name>my repository</name>
+      <url>http://localhost:8081/repository/today/</url>
+    </repository>
+  </distributionManagement>
 </project>
